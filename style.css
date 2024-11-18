@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(103, 126, 168);
+  
+}
+
+div {
+    background-color: rgb(234, 236, 238);
+    border-radius: 15px;
+    width: 375px;
+    height: 450px;
+    text-align: center;
+    margin: 5% auto;
+
+}
+.div-crono{
+    background-color: transparent;
+    border-radius: 100%;   
+    border:1px solid rgb(188, 188, 207);
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 10%;     
+}
+
+h1 {
+    position: relative;
+    margin-top: 40%;
+    font-weight: 900;
+}
+
+button {
+    position: relative;
+    top: 20%;
+    margin-top: 3%;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(211, 211, 223);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: rgb(103, 126, 168);
+}
+
+/* Estilos para telas de telefone */
+@media (max-width: 767px) {
+
+    div{
+        width: 325px;
+        height: 400px;
+        margin-top: 40%;
+    }
+}
+
+/* Estilos para telas de tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    div{
+        width: 350px;
+        height: 425px;
+        margin-top: 40%;
+    }
+}
