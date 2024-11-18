@@ -4,4 +4,4 @@
 <br>
 
 <img src="https://github.com/PatriciaOp/cronometro/blob/main/assets/cronometro.png?raw=true"/>
-<a href="https://patriciaop.github.io/cronometro/">Acesse aqui:</a>
+<h3> <a href="https://patriciaop.github.io/cronometro/">Acesse aqui:</a> </h3>
